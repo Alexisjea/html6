@@ -1,0 +1,40 @@
+p{/*l'appel du selecteur(nom de la balise, le nom d'une classe....*/
+   /* ici je met le code css */
+   /* la forme d'une propriété */
+  /* nom_propriété:valeur_propriete;
+   /* un exemple */
+   color: blueviolet;
+
+}
+h4{
+    color: brown;/* propriete permet de changer la couleur du texte*/
+    background-color: burlywood;/* background-color permet de changer la couleur de l'arrière plan */
+    text-align: center;/*text-align permet d'aligner le texte */
+font-size: 50px;
+
+}
+h2{
+    color: cornflowerblue;
+    background-color: red ;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    color: blue;
+    background-color: coral;
+    
+}
+/* l'appel du classe se fait e, ajoutant au point de début*/
+
+.premier_p{
+    color: yellowgreen  ;
+    font-size: 50px ;
+    text-align: left;
+
+}
+.second_p{
+    color: violet;
+    font-size: 37px;
+    text-align: right;
+
+}

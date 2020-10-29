@@ -1,0 +1,62 @@
+.pink{
+    background-color: pink;
+
+
+}
+
+article{
+float: left;
+    background-color:green;
+height: 600px;
+width: 500px;
+
+
+}
+
+
+footer{
+    background-color: red;
+    color: #fff;
+    margin: 10px 50px 2px 40px ; 
+    /* margin permet de faire des espacements entre les élements , principalement il 4 chiffre qui suit le tour de l'horloge(top,right,bottom(bas),left */
+    padding: 50px;
+    width: 500px; 
+    /* permet de définir la taille , la largeur d'un bloc en pixels (px)  */
+    height: 600px; 
+    /* hauteur */
+    text-align: center;
+    /* aligner le texte si padding existant => ne prendra pas effet  */
+clear: both;;
+}
+
+
+
+#article{
+    background-color:purple;
+    
+}
+
+a { /* sélecteur */
+font-size: 26px;
+color: mediumaquamarine;
+font-family:fantasy;
+background-color: mediumvioletred;
+padding-right: 50px;
+float: right;
+text-decoration: none
+text-decoration: /*permet de changer la décoration du texte, on met none pour suprimer la décoration */
+
+}
+nav{
+width: 1300px; /* limite toute la page */ 
+text-align: right; /* aligne le texte */ 
+margin: 0 auto; /* permet de centrer le contenu de la page et il va créer un margin automatique (gauche et droite) et en haut et en bas le margin sera 0  */
+height: /*defini la hauteur d'un bloc */
+}
+
+body{
+    width: 1300px;
+    margin:0 auto;
+    text-align: ;
+
+}
