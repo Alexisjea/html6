@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+ <html lang="fr">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>les bases de bootstrap</title>
+     <!--l'appel de fichier css en local-->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+     <!--l'appel du fichier css personnel-->
+     <!--l'appel du fichier personnel se fait en dernier apres l'appel du fichier bootstrap, c'est très important-->
+     <!--l'appel des polices se fait avec deux manières soit avec le lien dans head soit avec @import dans le fichier css , on l'utilise lune des deux-->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+     
+ </head>
+ <body>
+     <!--bootstrap permet de créer des pages en responsive web design(RWD) c'est a dire créer des pages qui s'aaptent sur toutes les tailles d'écran qui connectent sur le site ou bien l'application-->
+ <div class="container bg-primary"><!--la classe container donne du width et margin:0 auto pour un bloc -->
+    <!--bootstrap c'est un framework css, il contient une bibliothèque de classe prédefini, qui contient du design pour tous les éléments html, on doit comprendre le princiupe de bootstrap pour mieux utiliser les classes-->
+    <h2>les conteneurs et les blocs principaux de bootstrap</h2>
+ </div>
+  <div class="container-fluid bg-info">
+      <h2>container fluid permet de mettre le bloc sur la totalité de la page </h2>
+
+  </div>
+  <div class="container">
+      <div class="row"><!--la classe row permet de créer une ligne (rangée ou bien row), chaque ligne contient 12 colonnes-->
+        <div class="col-3 border">col-3(occupe 3 colonnes)</div>
+        <div class="col-6 border">col-6(occupe 6 colonnes)</div>
+        <div class="col-3 border">col-3(occupe 3 colonnes)</div>
+     </div>
+     <div class="row"><!--col-md-2 , il va occuper deux colonnes à partir de medium et plus , les ecrans moins de medium ils passeront en 100% en width-->
+        <div class="col-md-2 border">col-2</div>
+        <div class="col-3 border">col-3</div>
+        <div class="col-2 border">col-2</div>
+        <div class="col-md-5 border"> col-5 </div>tn ,jyk
+     </div>
+     <!--les différentes tailles possibles(xs=xtra small(moins de 786px)col- ou col-xs-*(*:1->12), sm=small(moins de 992px)col-sm-*12(*:1->12), md=médium(moins de 1200px)col-md-*12(*:1->12), lg=large(plus de 1200px)col-lg-*12(*:1->12), xl=xtra-large(les grandes tailles))-->
+  </div>
+
+
+
+
+
+
+
+
+ <!--l'appel du fichier javascript on peut le faire dnas la partie head et aussi en bas juste avant de fermer le body, ce qui est recommandé c'estr de le mettre en bas pour ne pas alourdir le téléchargement de la page -->
+  <script src="javascript/bootstrap.min.js"> </script>
+
+ 
+ </html>

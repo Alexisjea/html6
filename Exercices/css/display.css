@@ -1,0 +1,30 @@
+body{
+    margin: auto 0;
+ width: 1400px;
+}
+
+
+
+h1{
+    text-align: center;
+    
+}
+
+p{
+    font-family: sans-serif ;
+    text-align: center;
+  
+}
+.blok1,.blok2,.blok3,.blok4,.blok5,.blok6{
+    width: 300px;
+    box-shadow: 2px 2px 3px lightslategrey ;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin: 50px;
+
+    
+}
+.img{
+    width: 100%;
+}

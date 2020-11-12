@@ -1,0 +1,78 @@
+.item1{
+    background-color: lightsalmon;
+    width: 80px;
+    height: 80px;
+    flex-grow: 200px;/*pour définir la taille d'un élément au début par rapport aux autres éléments, je donne la possibilité de grandir l'élément si nécéssaire*/
+}
+.item2{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    flex-basis: 250px;/*défini la taille de l'élément*/
+}
+.item3{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    order: 1; /*il change l'ordre d'affichage d'un éléments par rapport au flux web*(insertion par défaut dans html)*/
+    
+}
+.contenu_1{
+    border:1px solid orange;
+    
+    height: 400px;
+    display: flex;
+    flex-direction: row;/*la valeur par défaut est row, les valeurs possibles(column,row,row-reverse,column-reverse..)*/
+    justify-content: space-around; /*la valeur par défaut ici c'est flex-start(center,flex-end,flex-start,space-between,space-around */
+    /*space-between: les elements sont réparties sur la totalité de la ligne en créeant des espace entre les éléments
+space-around: les éléments sont réparties sur la totalité de la ligne en créeant des espaces alentours des éléments center: il va centrer les éléments dans le conteneur
+*/
+/*align-item permet d'aligner l'éléments sur la hauteur du conteneur si l'élément n'as pas de height de base (si height n'est pas défini)*/
+align-items: stretch; /*la valeur par défaut est flex start les valeurs disponibles (flex-end,flex-strat,center,strech,baseline)*/
+}
+.contenu_2{
+    border:1px solid orange;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contenu_3{
+    border:1px solid orange;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;     
+}
+.contenu_4{
+    border:1px solid orange;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;/*défini est ce que les éléments seront obligatoirement sur une seule ligne ou bien ils onjt la possibilité d'être sur plusieurs lignes(car il y a un retour à la ligne)*/    
+    /*flex-flow: <flex-direction> <flex-wrap> ; on peut combiner les deux valeurs de flex-direction et flex-wrap dans une seule propriété flex-flow;*/
+   /*align-content il fait la même chose que align-item si on a plusieurs lignes sur le même conteneur*/
+}
+h1 {
+    background-color: blue;
+    color: whitesmoke;
+    padding: 1em;
+}
+h2 {
+    background-color: blue;
+    color: white;
+    padding: 0.5em;
+}
+h3 {
+    background-color: blue;
+    color: #610F7F;
+    padding: 0.25em;
+}
+
+
+
+
+
+
+
