@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+nav a {
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 16px ;
+}
+.lign1{
+    height: 100px;
+    background:linear-gradient(to bottom, #555,#000);
+}
+div,body{/*pour initialiser toutes les balises sur toutes les */
+   padding: 0;
+   margin: 0;
+}
+section img {
+    width: 100%;/*pour que les impages prennent 100% de la taille de son parent (div qui l'encapsule)*/
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.bloc1{
+    display: flex;
+}
+.text{
+    text-align: center;
+    padding: 24px;
+    background-color: #ffffff;
+    
+}
+.bloc1 p{
+color: gray;
+}
+.text span{/*je selectionne les spans qui sont à l'intérieur du texte*/
+color: orange;
+}
+.bloc2{
+    display: flex;
+}
+.bloc3{
+display: flex;
+}
+footer{
+    height: 100px;
+    background: linear-gradient( to bottom,#555,#000);
+    position: relative;
+    z-index: 1;
+    bottom: 50px;
+}
+main{
+    z-index: 2;
+    position: relative;
+}
+nav a:hover{ /*le style sera appliqué lorsqu'on passe la souris dessus*/
+   
+    color: orange;
+}
+.bloc1 img:hover{
+transform: scale(1.4);
+}
+
+.bloc1 img{
+    transition: 0.5s ease-in;/*on déplace la transition sur le bloc directemnt sans hover pour visualiser l'effet de la transition dans les deux sens (lorsque le curseur passe sur l'image et lorsqu'il quitte aussi)*/
+    /*les transitions on les utlises pur raffiner l'animation sur la duréee le rythme...*/
+}
+
+
+}
