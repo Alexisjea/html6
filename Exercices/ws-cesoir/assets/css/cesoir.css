@@ -1,0 +1,148 @@
+body{
+    margin: 0 auto;
+    width: 1200px;
+    
+}
+header{
+    background-image: url("../img/planches.jpg");
+    /*J'insère le fond d'écran de la page*/
+   
+    width: 100%;
+    height: 800px;
+}
+span{
+    text-decoration:underline;
+    border: bottom 20px ;
+    font-size: 25px;
+    font-family: 'Caveat Brush',
+    cursive;
+    margin-bottom: 10px;
+}
+nav a{/*j'enleve le soulignement des liens*/
+   text-transform: none;
+   text-decoration: none;
+   font-family: sans-serif;
+   font-weight: bold;
+   margin-left: 30px;
+   color: black;
+   font-size: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: 'Caveat Brush',cursive;
+}
+.triangle{
+   
+   height : 0;
+   width : 0;
+   border-top : 100px solid magenta;
+   border-left : 100px solid transparent;
+   position: relative;
+   bottom: 250px;
+   left: 550px;
+   opacity: 0.7;
+}
+.cerf{
+   
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+section .text {
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+section .text h1{
+    text-transform: uppercase;
+    margin-bottom: 400px;
+    margin-left: 200px;
+    text-align: center;
+}
+section .text p{
+    text-align: center;
+}
+section {
+    display: flex;
+    align-items: center;
+}
+.fleche{
+    color: magenta;
+    text-align: center;
+    font-size: 100px;
+}
+.trait p{
+    border: 5px solid magenta;
+    border-radius: 10px 10px 10px 10px;
+    width: 30px;
+    text-align: center;
+    margin-top: -300px;
+}
+.asperge{
+   perspective-origin: right;
+   justify-content: right;
+}
+
+.image{
+    width: 800px;
+    justify-content: center;
+}
+.eggs img{
+    
+    width: 1200px;
+}
+.text img{
+    width: 100px;
+}
+.text{
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+
+    
+}
+.icon{
+color: magenta;
+margin-top: 150px;
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    margin-top: 200px;
+    
+}
+.text1{
+font-family: 'Caveat Brush',
+cursive;
+}
+p{
+    font-family: 'Caveat Brush',
+    cursive;
+  
+}
+.text p{
+    margin-top: -356px;
+}
+h2{
+  
+  color: magenta;
+  text-transform: uppercase;
+}
+.trait1 p {
+    border: 5px solid magenta;
+    border-radius: 10px 10px 10px 10px;
+    width: 20px;
+    text-align: center;
+}
+.image1 img{
+ width: 900px;
+}
+.image2 img{
+    width: 800px;
+}
