@@ -1,0 +1,18 @@
+body{
+    margin :0 auto;
+    /*utiliser background-image et background-repeat différemment*/
+    background:url(bkg.jpg); /*ici on met le chemin de l'image bkg.jpg*/
+}
+div{
+text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 1vw;/*view widith , vh:view height, 1vw vaut 1% de la largeur affiché*/
+}
+nav a{
+    font-size: 26px;
+}
+

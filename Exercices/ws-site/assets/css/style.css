@@ -1,0 +1,298 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+*{
+    box-sizing: border-box;
+}
+body{/*mettre une image en fond d'écran sur body (cad sur la totalité la page)*/
+    background-color: url("../img/concrete-texture.png");
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(41, 66, 104);
+    padding: 15px 0;
+/*padding:15px; il va faire un padding de 15px sur les 4 côtés(top right,bottom,left)
+  padding:15px 4px; il va faire un padding de 15px en haut et en bas(top,bottom) et il va faire padding de 4px à gauche et à droite (left et right)
+  padding : top right bottom left; (il suit le sens des aiguilles d'une montre )
+*/
+}
+header h1{
+    font-family: 'anton',sans-serif;
+    color:#2980b9;
+    font-size: 45px;
+    line-height: 115px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.social a{
+    display: block;
+    color:#2980b9;
+    font-size: 25px;
+    line-height: 45px;
+}
+.social{
+margin-right: 24px;
+}
+.logo{
+    margin-left: 100px;
+}
+.slogan{
+    flex-grow: 500px; /*c'est une propriété enfant flex qui permet à l'élément de prendre tout le reste de l'espace disponible*/
+    margin-left: 10%;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;/*on peut suprimer les puces de la liste dans ul ou bien dans li */
+    margin: 0 auto;
+
+}
+.nav_bar a {/*selectionner les a qui sont à l'interieur de .nav_bar*/
+ text-decoration: none;/*pour suprimer les soulignements*/
+ color: honeydew;
+ font-size: 20px;
+ font-family: 'oswald';
+ 
+}
+nav{
+    background-color: #2980b9;
+    padding-top: 10px;
+    border-bottom: 4px solid #93d3fd;
+    
+}
+.nav_bar li{
+    border: 2px solid #ffffff;
+    background-color: #6acafc;
+    border-radius: 10px 0;
+    padding: 3px 10px;
+    transition:0.5s ;/*pour raffiner l'effet de l'apparition,*/
+}
+.nav_bar li :hover{/*lorsque je passe la souris au dessus de l'élémen je fais ces propriétés*/
+    background-color: #a6d6c3;
+
+}
+li :active{
+background-color: #2c3e50;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+section{
+    background-color: #a6d6c3;
+    padding: 10px;
+    color: black;
+   
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'oswald';
+}
+footer{
+    background-color:#2980b9 ;
+    height: 45px;
+}
+/****css pour page image*******/
+
+h2{
+    /*pour créerbackground transparent */
+    background-color: rgba(178, 178, 178, 0.3);
+    color: #2c3e50;
+    font-size: 35px;
+    padding: 30px 20px 50px  ;
+    text-shadow: 1px 1px 1px grey;/*créer un effet sur */
+
+}
+.image_fond{
+    background-image: url(../img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.image_fond p{
+
+margin: 199px 50px 348px 50px;
+background-color: rgba(255, 255, 255, 0.6);
+padding: 30px;
+border-radius: 10px;
+font-size:21px ;
+
+}
+.image_fond h5{
+   
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px grey;
+    font-family: serif;
+    color: #2c3e50;
+}
+.animation img{
+    border : 4px solid #ffffff
+}
+.animation_img{
+    background-color: rgba(178, 178, 178, 0.3);
+}
+.picture1 img,.picture3 img,.picture2 img{
+    border: solid 3px #ffffff;
+}
+.picture1 :hover,.picture2 :hover{
+    border: solid 10px #ffffff;/*on met transition en dehors d hover pour visualiser l'animation dans les deux sens(cad lorsque je passe ma soris et lorsque je quitte aussi)*/
+    transform: rotate(20deg);
+    transition: 1s;
+}
+.picture3 :hover{
+    transform: rotate(- 360deg);/*on ajoute le signe - devant le degres peut tourner dans le sens inverse de l'aiguille d'une montre*/
+    border: solid 10px #ffffff;
+    transition: 2s;
+
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    /* jc:sb +tab*/
+}
+.absolute{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;/*la position absolute suprime l'élément complètement le flux web */
+    left: 111px;
+    top: 197px;
+}
+.relative {
+    width: 400px;
+    height: 200px;
+    background-color: #2d5c7f;
+    position: relative;
+    left: 250px;
+}
+.relative .carre_vert{
+    width: 50px;
+    height: 50px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 0;
+    right: 0;
+} 
+.marron{
+    background-color: brown;
+    color: gold;
+    width: 30%;
+    height: 50px;
+}
+.rose{
+    background-color: crimson;
+    color: gold;
+    width: 50%;
+    height: 50px;
+}
+.or{
+    background-color: gold;
+    color: crimson;
+    height: 50px;
+    
+}
+.or p ,.rose p,.marron p{
+    margin-left: 20px;
+    margin-top: 20px;
+   padding: 15px;
+   font-weight: bold;
+}
+.carre {
+     width: 100px;
+     height: 100px;
+     border: 2px solid brown;
+     background-color: burlywood;
+     float: left;
+     margin-left: 30px;
+     
+    margin-bottom: 50px;
+}
+.divcarre2{
+    clear: both;
+    margin-top: 20px;
+}
+.divcarre3{
+    clear: both;
+    
+    margin-bottom: 110px;
+}
+.divcarre1{
+    clear: both;
+}
+.carre p{
+    text-align: center;
+}
+.sec{
+    background-color: rgb(248, 243, 243);
+}
+/*----------------------------------CSS pour la page Animation---------------------------------------------------------*/
+.infoBulle{
+    
+    margin: 50px auto;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 4px 6px 54px #222222 inset;
+    background: #444;
+    padding-top: 20px;
+}
+.infoBulle a{
+color: #cccccc;
+text-decoration: none;
+}
+.infoBulle p {
+margin-top: 30px;
+}
+.infoBulle span {
+position: relative;
+color: #0099cc;
+top: 35px;
+background-color: rgba(0, 0, 0, .9);
+padding:10px 15px;
+border-radius: 3px;
+right: 27px;
+opacity: 0;/* il va mettre l'élément en transparence */
+ transform: scale(0) rotate(-12deg);
+}
+.infoBulle a span:before{
+    content: "";
+    /*ces bordures qui vont générer un triangle*/
+    border-bottom: 6px solid black;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: relative;
+    bottom: 37px;
+
+}
+.infoBulle a:hover span{
+    opacity: 1;
+    transform: scale(1) rotate(12deg);
+    transition: 1s;
+}
+
+
+
+
+

@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+ <html lang="fr">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Les Positions:relative,absolute,fixed</title>
+     <link rel="stylesheet" href="CSS/10_position.css">
+</head>
+ <body>
+     <!--les positions permet de gérer plus librement l'emplacement des éléments dans la page par rapport aux autres éléments
+    il y a plusieurs valeurs possible pour position , absolute , fixed , relative , static, sticky.....-->
+    <!--position relative , il permet de positionner un élément 
+    par rapport à son emplacement ou par rapport à d'autres éléments-->
+    <!--position relative permet de popsitionner des éléments dans la page par rapport au point zéro point(x,y)
+    le point qui est gauche à gauche en haut-->
+    <!--la position fixed, permet de coller un élément (reste fixe tout en scrollant la page en bas) -->
+    <!--la syntaxe de position
+    position:relative/absolute/fixed...
+     left:100px;   /permet de décaler l'élément de 100px à partir de gauche
+    top:250px;   /permet de décaler l'élément de 250px à partir du haut
+    right:360px;  /permet de décaler l'élément de 360px à partir de droite
+    -->
+    <header>
+        position fixed en hau à gauche, qui va rester fixe lorsqu'on scrolle en bas
+    </header>
+    
+    
+        <div class="item1">position relative(right:0 ,top:150px) division 1</div>
+        <div class="item2">position relative(bottom:0 ,right :0) division 2 </div>
+        
+
+    </div>
+    <div class="bloc_2">
+        bloc parent(position relative)
+        <div class="item3">position relative(top:150px;left:300px)<br> , décaler de 150px par rapport à l'emplacement de son parent</div>
+        <div class="item4">position relative division 4</div>
+    </div>
+ </body>
+ </html>

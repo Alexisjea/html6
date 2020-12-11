@@ -1,0 +1,23 @@
+body{
+    margin: 0 auto;
+    width: 900px;
+    background-color: rgb(179, 209, 218);
+}
+td{
+    width: 30px;
+    height: 30px;
+    
+}
+.purple{
+    background-color: purple;
+   
+    
+}
+
+.redfonce{
+    background-color: rgb(128, 0, 0);
+    width: 200px;
+}
+table{
+    border-collapse: collapse;
+}

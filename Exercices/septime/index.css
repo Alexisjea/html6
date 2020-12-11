@@ -1,0 +1,77 @@
+.container{
+  
+    
+}
+nav {
+    text-align: center;
+}
+
+.nav{
+    color: orangered;
+    
+}
+body{
+     margin: 0 auto;
+     background-color: rgb(221, 220, 220);
+     width: 1024px;
+    
+}
+
+.text0{
+    display: flex;
+    align-items: center;
+  
+    
+ 
+}
+.bloc1{
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    
+}
+.bloc2{
+    position: relative;
+    display: flex;
+    
+    justify-content: space-between; 
+    
+}
+.text2{
+    margin-top: 200px;
+    margin: 50px;
+ 
+    
+}
+.img1{
+  width: 512px; 
+  
+}
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+font-size: 35px;
+}
+.nav hr{
+    width: 200px;
+}
+p{
+    font-style: italic;   
+}
+.bas{
+    text-align: center;
+    
+}
+.text3{
+   
+    position: relative;
+    top: 80px;
+    font-size: 15px;
+}
+.bas hr{
+    width: 50%;
+}
+a{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}

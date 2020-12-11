@@ -1,0 +1,47 @@
+body{
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.couleur_1{
+    background-color: peachpuff;
+    
+}
+.couleur_2{
+    background-color: rgb(80, 82, 185);
+}
+.couleur_3{
+    background-color: rgb(86, 82, 110);
+}
+.couleur_4{
+    background-color: rgb(224, 219, 170);
+}
+.zone_A,.zone_B,.zone_C,.zone_D{
+ width: 600px;
+ display: inline-block;
+ border : 1px solid white   
+}
+.zone{
+    width: 295px;
+    display: inline-block;
+    height: 150px;
+    border: 1px solid white;
+}
+header{
+    background-color: tan ;
+    height: 100px;
+
+}
+footer{
+    background-color: silver ;
+    height: 100px;
+}
+nav{
+    background-color: slateblue;
+    height: 30px ;
+}
+main{
+padding: 20px;
+background-color: cyan;
+}

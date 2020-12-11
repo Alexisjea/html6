@@ -1,0 +1,62 @@
+/* selecteur {
+    propriété 1 : valeur 1;
+    propriété2 : valeur 2 ; 
+    propriété 3 : valeur 3 ; 
+    ....... on peut mettre un nombre illimité de propriété 
+} 
+*/
+/*selecteur à deux niveau , il selectionne les p qui se toruve à l'interieur de section (enfant direct) */
+
+section p{
+    color : red
+}
+/*selecteur simple avec le nom de la balise */
+ 
+h1{
+     background-color: lightgreen;
+     color: #fffffff; /* #fffffff est le code couleur de blanc */
+
+
+ }
+ 
+section p span {
+
+font-size: 60px;
+}
+/*parent enfant : first-child*/
+
+section h2:first-child{
+    background-color: limegreen;
+}
+
+section p:nth-child(2){
+    
+ background-color: magenta; 
+
+}
+
+section p:last-child{
+    background-color: maroon;
+}
+
+section p:nth-child(6),section p:nth-child(9){/*on peut mettre plusieurs selecteurs espacé par une vigule*/
+    color: darkturquoise;
+    font-size: 36px;
+}
+
+section p:nth-child(even){/*nth-child(even) permet de sélectionner les p de nombres paires
+*/    border: 1px solid lightcoral ; 
+}
+section p:nth-child(odd){/*nth-child(even) permet de sélectionner les p de nombres impaires*/
+
+text-align: center;
+}
+ul li:nth-child(2){
+
+    background-color: navy;
+}
+/*ul.list_2 // ca veut dire la balise ul qui contient une classe list_2 */
+ul.list_2 li { /*c'est équivalent a .list_2li */
+
+
+}

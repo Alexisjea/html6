@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;/*border-box va garder la meme taille du bloc meme si on ajoute du padding ou bien bordure */
+}
+.container{
+    width: 1024px;/*la taille de la page*/
+    /* margin: 0 pour top et bottom et auto(automatique) pour left et right, autolatique selon le reste de l'espace de la page selon la taille que j'ai mentionné dans widith*/
+    margin: 0 auto;/*permet de centrer la page dans le navigateur, créer des margin à gauche et à droite*/
+    background-color: #f6f6f7;
+    font-family: "Cormorant Garamond", serif ;
+}
+header{
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+}
+header h1{/*je vais selectionner les h1 qui se trouve à l'intérieur de header*/
+font-size: 3em;
+text-transform: uppercase;/*mettre tout le texte en majuscules*/
+letter-spacing: 5px;/*il va rajouter de l'espacelent entre les lettres*/
+font-weight: 500;/*pour changer l'épaisseur du texte*/
+}
+nav a{/*je vais selectionner toutes les balises qui se trouve à l'intérieur de la balise nav*/
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+.assiette img {
+    border-radius: 50%;
+}
+section{
+    display: flex ;
+    align-items: center;
+}
+.text_assiette{
+width: 40%;
+text-align: right;
+position: relative;
+right: 150px;
+}
+.text_assiette h3:first-child/*on peut mettre sans fisrt child*/{
+font-style: italic;
+}
+.text_assiette p{/*je vais selectionner tous les p qui se trouve à l'intérieur de text_assiette*/
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 2px;
+line-height: 10px;
+}
+section h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    font-weight: 500;
+    border-bottom: 1px solid grey;
+}
+.salle p , .service p,.dressage p,.gout p{/*puisqu'on va appliquer le meme style sur tous ses p on peut les regrouper essemble avec virgule(,) */
+margin-top: 5px;
+font-weight: bold;
+font-style:italic ;
+font-size: 16px;
+margin-bottom: 5px;
+
+}
+.salle,.dressage,.service,.gout {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.salle span,.service span,.dressage span , .gout span {
+    background-color: black;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    text-transform: uppercase;/*mettre en majuscule le texte*/
+    font-weight: bold;/*créer des espacement entre les lettres*/
+    padding-left: 5px;
+    padding-right: 50px;/*créer un margin a droite*/
+    margin-top: 15px;/*creer un margin en haut*/
+}
+.salle span i,.service span i ,.dressage span i,.gout span i {/*on peut appeler i de 4 bloc en meme temps ppuisquil s'agit de meme style à appliquer*/
+    font-size: 9px;
+    vertical-align: 2px;/*il va aligner le texte verticalement sur la hauteur*/
+}
+footer{
+    text-align: center;
+    width: 43%;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+.septime{
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+footer p:nth-child(5){
+    text-transform: uppercase;
+     font-weight: bold;
+     letter-spacing: 2px;
+}
+.city_guide{
+    text-transform: uppercase;
+    position: relative;
+    bottom: 6em;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+footer img {
+    opacity: 0.2;/*opacity changer la transparence de l'image , du bloc , du texte , la valeur varie entre 0 et 1*/
+}
+footer p {
+    font-weight: bold;
+}

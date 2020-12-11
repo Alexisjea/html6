@@ -1,0 +1,40 @@
+label{
+color: blue;
+text-align: right;
+font-weight: bold;/* pour mettre en gras le texte  */
+
+
+}
+
+
+input{
+    color: brown;
+    text-align: left;
+     background-color: darkorange;
+     padding: 30px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     border:none; 
+     /* supprimer la bordure du bouton */
+}
+
+p{
+
+    color: cyan;
+    background-color: darkmagenta;
+}
+
+legend{
+
+background-color: darkred;
+
+
+
+}
+
+fieldset{ 
+    color: darkturquoise;
+    border: 4px dotted firebrick; 
+    /* border permet de créer des bordures, 1px pour l'epaisseur de la bordure , solid pour le type de bordure et  la couleur de la bordure*/
+
+}
+

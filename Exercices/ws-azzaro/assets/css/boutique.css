@@ -1,0 +1,177 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    width: 60px;
+    margin-top: 25px;
+}
+.bloc1{
+    position: relative;
+}
+.bloc1 h1{
+font-weight: bold;
+}
+.bloc1 h5{
+    color: plum;
+    font-style: italic;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bloc{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 140px;
+}
+.bloc2 h1{
+    color:rgb(103, 220, 255);
+}
+.bloc2 p{
+color: gray;
+font-style: italic;
+}
+.img{
+    position: relative;
+}
+.img p{
+    margin-top: -24px;
+    margin-left: 54px;
+    color:rgb(103, 220, 255);
+    font-weight: bold;
+}
+.compte{
+    padding: 0;
+}
+.bloc3 p{
+    color : white;
+    background-color:rgb(103, 220, 255);
+}
+.panier{
+    display: flex;
+    background-color:rgb(103, 220, 255);
+}
+.compte p {
+    text-align: center;
+    height: 18px;
+}
+nav{
+    color: white;
+    background-color:rgb(103, 220, 255) ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav a{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+
+}
+.bloc4 nav a:hover{
+    background-color: violet;
+}
+.bloc5{
+    display: flex;
+}
+.paiement :nth-child(1){
+    color:rgb(103, 220, 255) ;
+}
+.qsn :nth-child(1){
+    color:rgb(103, 220, 255) ;
+}
+.service :nth-child(1){
+    color:rgb(103, 220, 255) ;
+}
+.paiement{
+    width: 250px;
+    height: 160px;
+    padding-right: 60px;
+    border-right: 1px solid grey;
+    margin-left: 20px;
+}
+.qsn{
+    width: 500px;
+    height: 160px;
+    padding-right: 60px;
+    border-right: 1px solid grey;
+    margin-left: 20px;
+}
+.service{
+    width: 250px;
+    margin-left: 20px;
+}
+.service1{
+    display: flex;
+    
+}
+.service img {
+    height: 40px;
+}
+.service1 p{
+    margin-left: 20px;
+}
+.bloc6{
+    display: flex;
+    color: black;
+    
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+.bonplan1{
+    display: flex;
+}
+.bonplan{
+    border: 3px solid grey;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin-right: 30px;
+}
+.bonplan p:nth-child(1){
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+    height: 20px;
+    border-radius: 25px 25px 0px 0px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.bloc6 a{
+    margin-left: 260px;
+    color:rgb(103, 220, 255) ;
+    text-transform: none;
+    font-weight: bold;
+    
+}
+.bonplan1 p{
+    margin-left: 10px;
+}
+.bloc6 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.lien{
+    margin-right: 20px;
+}
+footer{
+    margin-top: 100px;
+    
+    height: 30px;
+   
+
+}
+.bloc7{
+    color: white;
+    background-color:rgb(103, 220, 255) ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bloc7 span{
+    margin-left: 5px;
+    margin-right: 5px;
+}

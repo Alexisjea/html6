@@ -1,0 +1,69 @@
+body{
+    height: 1200px; /*donner une hauteur de la page pour créer un scroll , pour voir les animations */
+}
+
+
+.carre{
+    width: 75px;
+    height: 75px;
+    
+}
+body .carre:first-child{
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top:0
+}
+.carre:nth-child(2){
+    background-color: blue;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.carre:nth-child(4){
+    background-color: green;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.carre:last-child{
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.rectangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 150px 75px 0 75px;
+    border-color: #ff00ff transparent transparent transparent;
+    position: sticky;
+    left: calc(50% - 100px);/*calc fonction permet de calculer la taille en fonction de la taille de l'ecran disponible tout en soustrayantla taille du bloc , pour bien centrer l'élément*/
+    top : 0px;/*le point ou il va rester coller et bouge pas */
+    margin-top: 100px;
+    z-index: 2;
+}
+.conteneur{
+    height: 1200px;
+}
+
+.rond{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;/*pour créer des ronds on utlise border radius 50%*/
+    background-color: cyan;
+    position: relative;
+    left:calc(50% - 40px);
+    z-index: 1;
+}
+.ombre{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;/*pour créer des ronds on utlise border radius 50%*/
+    background-color:orangered;
+    position: relative;
+    left:calc(50% - 40px);
+    z-index: 1;
+    bottom: ;
+}

@@ -1,0 +1,45 @@
+body{
+    width: 1300px ;
+    margin: 0% auto;
+    border:  2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+header,footer{
+    background-color: violet;
+    height: 100px;
+}
+nav{
+    background-color: purple;
+    height: 20px;
+}
+.a,.b,.c,.d{
+height: 250px;
+width: 50%;
+float: left;
+}
+.a{
+ background-color: purple;
+ 
+}
+.b{
+background-color: seagreen;
+
+}
+.c{
+    background-color: tan;
+    
+}
+.d{
+    background-color: cyan;
+    
+}
+footer{
+ clear: both;
+}
+section{
+    padding: 20px;
+    height: 500px;
+}
+

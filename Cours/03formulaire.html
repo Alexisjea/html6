@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" href="formulaire 03.css">
+</head>
+<body>
+   <form> 
+       <!-- La balise form permet d'annoncer que je vais créer un formulaire  -->
+     <!-- toutes les balises qui permet de créer le formulaire , se trouve a l'interieur de la balise form -->
+      <fieldset> 
+          <!-- cadrer le formulaire -->
+          <legend> formation vitry 2020-2021</legend> 
+          <!-- legend permet d'ajouter l'entete du formulaire -->
+     <p>
+         <label for="nom"> votre nom</label> 
+         <!-- label permet de créer une étiquette, c'est le texte qui va s'afficher avant le champs -->
+         <input id="nom" type="text" name="nom" placeholder="votre nom "  required />
+          <!-- les attributs type et name sont obligatoires pour chaque input , c'est une balise autofermante le nom permet de récuperer le contenu du champ  --></div>
+         </div>
+       </p>
+       <!-- required rentre le champ obligatoire -->
+      <!-- for et id permet de faire la liaison entre l'etiquette et le champ , ils doivent obligatoirement porter le meme nom -->
+      <p>
+          <label for="password">mot de passe</label>
+         <input id="password" type="password" name="mdp" placeholder="le mot de passe" required/>
+      </p> 
+      <p>
+         <!-- le type  password permet de créer des champs masquées (orienté pour les mots de passe) -->
+          <label for="email">votre email</label>
+          <input id="email" type="email" name="email" placeholder="email@abc.com" required/>  
+      </p>
+      <p>
+          <label for="fichier">joindre un fichier </label>
+          <input id="fichier" type="file" name="fichier" >
+      </p>
+             
+         <!-- le type file permet de joindre des fichiers -->
+        <p>
+            <label for="destruction"> :Quelle destination choissisez vous ?  </label>
+            <input type="checkbox" name="destination" value="suede" />suede 
+            <input type="checkbox" name="destination"value=egypte />egypte
+            <br>
+            <input type="checkbox" name="destination" value="islande"/>islande
+            <input type="checkbox" name="destination" value="norvege"/>norvege
+            
+        </p>
+             <!-- le type checkbox permet de cocher  -->
+            <!-- la création des boutons radio  -->
+        <p>
+            <label for="civilite"> votre civilité</label><br>
+            <input type="radio" name="civilite" value="femme"/>femme
+            <input type="radio" name="civilite" value="homme"/> homme
+        </p>
+       <p>
+           <!-- textarea permet d'ajouter une zone de texte et avec rows et cols on défini la taille de cette zone  -->
+            <label for="message"></label>
+           <textarea name="message"  cols="30" rows="10" placeholder="ecrire votre commentaire par rapport à la formation "> </textarea>
+       
+       
+       
+        </p> 
+         
+        <P>
+            <!-- la création des boutons  -->
+         <input type="submit" name="envoyer" value="sauvegarder"> 
+         <input type="reset" name="annuler" value="annuler"> 
+          <button>envoyer un mail</button>
+        </P>
+
+    </fieldset>
+    </form> 
+</body>
+</html>

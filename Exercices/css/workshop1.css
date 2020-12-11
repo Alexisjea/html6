@@ -1,0 +1,37 @@
+body{
+    width: 1300px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+header{
+    background-color: red;
+    width: 1276px;
+    height: 100px;
+     
+}
+.green{
+    width: 100px;
+    height: 400px;
+    background-color: green;
+    display : inline-block;
+    float: left;
+    border: 1px solid ;
+}
+footer{
+ background-color: gold;
+ width: 510px;
+ height: 100px;
+ position:  relative;
+ left: 378px;
+ bottom: 100px;
+ float: left;
+}
+.blue{
+    display: inline-block;
+    background-color: blue;
+    height: 500px;
+    width: 378px;
+    float: left;
+
+}

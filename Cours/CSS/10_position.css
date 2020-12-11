@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    height:1100px;
+
+}
+
+.item1{
+    width: 250px;
+    height: 100px;
+    background-color: rgba(154, 205, 50 ,0.6);
+   
+    /* les propriétes left, right,top et bottom sont relative à la propriété posittion*/.
+    /*comme on peut utiliser une seule propriété, on peut aussi utiliser 3 propriétés en même temps*/
+
+}
+.item2{
+    width: 250px;
+    height: 100px;
+    background-color: pink;
+    position:absolute;
+    bottom:  0;
+    right: 0; 
+}
+.item3{
+    width: 250px;
+    height: 100px;
+    background-color: rebeccapurple;
+    position: relative ;
+    left: 300px;
+    top: 150px;
+    color: white;/*les propriété left, right, top ,bottom sont relatives à la position */
+}
+.item4{
+    width: 250px;
+    height: 100px;
+    background-color: green;
+}
+.bloc_2{
+    border: 1px solid black;
+    position: relative;
+    left: 150px;
+    width: 400px;
+    top :200px;
+
+}
+header{
+    background-color: red;
+    height: 100px;
+    position: fixed;/*la position fixed peermet de coller l'élément tout en scrollant dans la page */
+    left: 0;
+    width: 900px;
+    top: 0;
+    z-index: 1;/*z-index permet de donner un ordre d'affichge pour les éléments qui sont superposés/*
+}

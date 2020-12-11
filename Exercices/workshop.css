@@ -1,0 +1,64 @@
+body{
+    margin : 0 auto;
+     width: 1300px; 
+}
+header{
+     text-align: center;
+    background-color: green;
+    height: 100px;
+    
+}
+nav{
+    background-color: grey;
+    text-align: center;
+    height: 50px;
+    
+    
+}
+div{
+text-align: center;
+height: 200px;
+display: inline-block;
+width: 300px;
+
+
+}
+main{
+   
+    padding : 20px;
+    height: 900px;
+    background-color:cyan;
+    display: inline-block;
+}
+.salmon{
+    background-color: salmon;
+    height: 200px;
+    width: 300px;
+    border:1px solid  white ;
+
+      }
+.blue{
+    background-color: blue;
+    height: 200px;
+    width: 300px;
+    border: 1pxsolid white;
+}
+.gold{
+    background-color: yellow;
+    height: 200px;
+    width: 300px;
+    border:1px solid  white;
+}
+.blueroyal{
+    background-color: teal;
+    height: 200px;
+    width: 300px;
+    border:1px solid  white;
+}
+
+footer{
+    background-color: crimson;
+    text-align: center;
+    height: 50px;
+}
+

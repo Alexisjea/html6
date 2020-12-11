@@ -1,0 +1,42 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+
+    width: 960px;
+    margin: 0 auto ; /* permet de mettre le contenu de la page au centre */
+    
+}
+
+table{
+border: 4px solid purple; /* les valeurs sont : épaisseur , le type de bordure, la couleur de la bordure */
+
+width: 600px;
+padding: 25px;
+border-collapse: collapse;/* pour fusionner les bordures */
+
+}
+
+th{
+    background-color: royalblue;
+
+}
+td{
+    border:1px dotted saddlebrown;  /* dotted permet de mettre la bordure pointillée */
+   
+    font-size: 26px;
+     padding: 10px; /* créer un espacement à l'intérieur de l'élément */
+     
+     text-align: center;
+}
+p{
+border: 5px solid lawngreen   ;
+border-radius: 100px 20px 10px 30px;
+width: 500px;
+height: 500px;
+text-align: center;
+
+}
+
+
