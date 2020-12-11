@@ -275,6 +275,7 @@ border-radius: 3px;
 right: 27px;
 opacity: 0;/* il va mettre l'élément en transparence */
  transform: scale(0) rotate(-12deg);
+ display: block;
 }
 .infoBulle a span:before{
     content: "";
